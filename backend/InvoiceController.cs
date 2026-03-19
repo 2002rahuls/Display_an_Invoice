@@ -21,8 +21,8 @@ namespace BuggyApp.Controllers
 
         public class Item
         {
-            public string Name { get; set; }
-            public double price { get; set; }
+            public string name { get; set; }
+            public double Price { get; set; }
         }
     }
 }
