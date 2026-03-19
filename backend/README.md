@@ -18,12 +18,6 @@ The API will be available at `http://localhost:5000`
 curl http://localhost:5000/api/invoice
 ```
 
-#### Get Invoice by ID
-
-```bash
-curl http://localhost:5000/api/invoice
-```
-
 ### Database
 
 Run `init.sql` to initialize the database with sample data.
