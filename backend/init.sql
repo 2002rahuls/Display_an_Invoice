@@ -1,11 +1,11 @@
 
 CREATE TABLE Invoices (
-    InvoiceID INT PRIMARY KEY,
+    InvoiceID INT PRIMARY KEY AUTOINCREMENT,
     CustomerName VARCHAR(100)
 );
 
 CREATE TABLE InvoiceItems (
-    ItemID INT PRIMARY KEY,
+    ItemID INT PRIMARY KEY AUTOINCREMENT,
     InvoiceID INT,
     Name VARCHAR(100),
     Price DECIMAL(10,2),

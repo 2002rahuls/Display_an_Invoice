@@ -10,7 +10,7 @@ namespace BuggyApp.Controllers
         [HttpGet]
         public IActionResult GetData()
         {
-            string result = null;
+            string result = "success";
             if (result != null && result.Length > 0)
             {
                 return Ok(new { message = "Data fetched" });
