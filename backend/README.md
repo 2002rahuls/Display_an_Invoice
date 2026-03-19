@@ -15,7 +15,7 @@ The API will be available at `http://localhost:5000`
 #### Get All Invoices
 
 ```bash
-curl http://localhost:5000/api/invoice
+ http://localhost:5000/api/invoice
 ```
 
 ### Database
